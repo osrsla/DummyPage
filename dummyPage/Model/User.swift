@@ -10,16 +10,13 @@ import Foundation
 class User {
     let id: UUID
     var username: String
-    var email: String
-    var registrationDate: Date
+    var userage: String
 
     init(id: UUID = UUID(),
-         username: String,
-         email: String,
-         registrationDate: Date = Date()) {
+         username: String = "르탄이",
+         userage: String = "5세") { 
         self.id = id
         self.username = username
-        self.email = email
-        self.registrationDate = registrationDate
+        self.userage = userage
     }
 }

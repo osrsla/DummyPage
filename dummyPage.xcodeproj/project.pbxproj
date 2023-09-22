@@ -25,7 +25,6 @@
 		30F74C1E2ABCC75A002BF83E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F74C1D2ABCC75A002BF83E /* MainView.swift */; };
 		30F74C222ABCCFC3002BF83E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F74C212ABCCFC3002BF83E /* TableViewCell.swift */; };
 		30F74C262ABCD3B2002BF83E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F74C252ABCD3B2002BF83E /* User.swift */; };
-		30F74C2F2ABD30C7002BF83E /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F74C2E2ABD30C7002BF83E /* Image.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,7 +48,6 @@
 		30F74C1D2ABCC75A002BF83E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		30F74C212ABCCFC3002BF83E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		30F74C252ABCD3B2002BF83E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		30F74C2E2ABD30C7002BF83E /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +116,6 @@
 			isa = PBXGroup;
 			children = (
 				30F74C252ABCD3B2002BF83E /* User.swift */,
-				30F74C2E2ABD30C7002BF83E /* Image.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -263,7 +260,6 @@
 				30F74C0A2ABCACB2002BF83E /* SecondView.swift in Sources */,
 				30F74BF22ABBD8D5002BF83E /* MainViewController.swift in Sources */,
 				30F74BEE2ABBD8D5002BF83E /* AppDelegate.swift in Sources */,
-				30F74C2F2ABD30C7002BF83E /* Image.swift in Sources */,
 				30F74C1C2ABCC73E002BF83E /* MemoView.swift in Sources */,
 				30F74BF82ABBD8D5002BF83E /* dummyPage.xcdatamodeld in Sources */,
 				30F74C062ABBDAF2002BF83E /* InstarViewController.swift in Sources */,

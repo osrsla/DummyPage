@@ -10,11 +10,14 @@ import UIKit
 
 class ProfileViewController: UIViewController {
     let profileView = ProfileView()
+    let user = User()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         setupStyle()
         setupLayout()
+        profileView.userNameLabel.text = user.username
+        profileView.userAgeLabel.text = user.userage
     }
 }
 
